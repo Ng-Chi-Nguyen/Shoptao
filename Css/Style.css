@@ -1,0 +1,333 @@
+/* Header */
+.Header .Header-top-bg{
+      background: #438F23;
+}
+.Header .Header-main-bg{
+      background: #378217;
+}
+.Header .Header-top{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 30px 10px;
+}
+.Header .Header-top a{
+      text-decoration: none;
+}
+.Header .Header-top .logo{
+      margin-right: 50px;
+      display: flex;
+      align-items: center;
+}
+.Header .Header-top .logo img{
+      width: 100px;
+      height: 100px;
+}
+.Header .Header-top .logo span{
+      font-size: 40px;
+      font-weight: 600;
+      color: #FFF;
+}
+.Header .Header-top .Locate{
+      margin-right: 50px;
+      display: flex;
+}
+.Header .Header-top input{
+      padding: 10px 10px;
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+      width: 450px;
+}
+.Header .Header-top .Locate i{
+      font-size: 22px;
+      color: #919191;
+      margin-left: -40px;
+      margin-top: 11px;
+      cursor: pointer;
+}
+.Header .Header-top .hotro-phone{
+      padding: 0 30px;
+      display: flex;
+      align-items: center;
+}
+.Header .Header-top .hotro-phone i{
+      font-size: 25px;
+      color: #FFF;
+      margin-right: 20px;
+}
+.Header .Header-top .hotro-phone p{
+      margin-bottom: 0;
+      font-size: 18px;
+      color: #FFF;
+}
+.Header .Header-top .Account a{
+      text-decoration: none;
+      padding: 12px 40px;
+      border: 2px solid #FFF;
+      color: #FFF;
+}
+.Header .Header-top .Cart{
+      cursor: pointer;
+      margin-left: 50px;
+      border: 2px solid #FFF;
+      padding: 15px 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+}
+.Header .Header-top .Cart i{
+      font-size: 25px;
+      color: #FFF;
+      margin-right: 15px;
+}
+.Header .Header-top .Cart span{
+      font-size: 17px;
+      font-weight: 600;
+      color: #FFF;
+}
+.Header .Header-top .Setting{
+      margin-left: 50px;
+      cursor: pointer;
+}
+.Header .Header-top .Setting i{
+      font-size: 30px;
+      text-align: right;
+      color: #FFF;
+}
+.Header .Header-main{
+      background: #378217;
+      display: flex;
+      align-items: center;
+      padding: 0 30px;
+      justify-content: flex-start;
+      text-transform: uppercase;
+}
+.Header .Header-main .Main-List a{
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #FFF;
+}
+.Header .Header-main .Main-List{
+      padding: 12px 30px;
+}
+.Header .Header-main .Main-List:hover{
+      background: #438F23;
+}
+.Header .Header-main .Main-List:nth-child(1)::before{
+      content: "\f0c9";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      margin-right: 15px;
+      font-size: 22px;
+      position: relative;
+      top: 2px;
+      color: #FFF;
+}
+.Header .Header-main .Main-List:nth-child(1)::after{
+      content: "\f0d7";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      margin-left: 10px;
+      color: #FFF;
+}
+/* End Header */
+/* Body */
+.inner-body{
+      display: flex;
+      padding: 30px;
+}
+.inner-body .z-3{
+      z-index: 3;
+}
+.inner-body .mg-10{
+      margin-left: -25px;
+}
+.inner-body .List-rubix{    
+      border: 1px solid #fafafa;
+      background: #FFF;
+}
+.inner-body .List-rubix .Rubix-icon{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+}
+.inner-body .List-rubix .Rubix-icon .inner-img{
+      display: flex;
+      align-items: center;
+      margin-left: -10px;
+}
+.inner-body .List-rubix .Rubix-icon img{
+      width: 30px;
+      height: auto;
+      margin-right: 10px;
+}
+.inner-body .List-rubix .Rubix-icon span{
+      font-size: 20px;
+}
+.inner-body .inner-image-center img{
+      width: 100%;
+      height: auto;
+      margin-left: -10px;
+}
+.inner-body .inner-image-right img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-left: 25px;
+      margin-bottom: 5px;
+}
+/* End body */
+/* San-pham-moi-ve */
+.San-pham-moi-ve{
+      margin-bottom: 40px;
+}
+.San-pham-ban-chay{
+      margin-bottom: 40px;
+}
+.San-pham-co-ban{
+      margin-bottom: 40px;
+}
+.Box-item{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+}
+.Box-item .item{
+      margin-left: 30px;
+}
+.Box-item .item:last-child{
+      border: 1px solid #ddd;
+      padding: 5px 20px;
+      border-radius: 20px;
+}
+.Box-item .item .Link-item{
+      text-decoration: none;
+      color: #222;
+}
+/* End San-pham-moi-ve */
+/* Rubik-bien-the */
+.Rubik-bien-the{
+      margin-bottom: 40px;
+}
+/* Het Rubik-bien-the */
+/* Combo rubik */
+.Combo-rubik{
+      margin-bottom: 40px;
+}
+/* Het Combo rubik */
+/* Phu kiem */
+.Phu-kien{
+      margin-bottom: 40px;
+}
+/* Het phu kien */
+/* Tin-moi */
+.Tin-moi{
+      margin-bottom: 40px;
+}
+.Tin-moi .inner-Box{
+      margin-bottom: 50px;
+}
+.Tin-moi .inner-Box:hover{
+      box-shadow: rgba(0, 0, 0, 0.43) 0 0 20px;
+}
+.Tin-moi .inner-Box .inner-image{
+      border-radius: 15px;
+}
+.Tin-moi .inner-Box .inner-image img{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 5px 5px 0 0;
+}
+.Tin-moi .inner-Box .inner-content{
+      padding: 20px;
+      border-left: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+}
+.Tin-moi .inner-Box .inner-content span{
+      color: rgb(173, 40, 40);
+      font-weight: 500;
+}
+/* Het Tin-moi */
+/* info-tt-hotro */
+.info-tt-hotro{
+      margin-bottom: 40px;
+}
+.info-tt-hotro .inner-content{
+      margin-top: 40px;
+}
+.info-tt-hotro .inner-content p span{
+      font-weight: 700;
+}
+.info-tt-hotro .inner-content ul{
+      display: flex;
+      align-items: center;
+}
+.info-tt-hotro .inner-content ul li{
+      margin-top: 10px;
+      margin-right: 10px;
+}
+.info-tt-hotro .inner-content ul li .w-h{
+      width: 40px;
+      height: auto;
+}
+.info-tt-hotro .inner-tt{
+      margin-top: 35px;
+}
+.info-tt-hotro .inner-tt .inner-title{
+      font-weight: 700;
+}
+.info-tt-hotro .inner-tt ul{
+      margin-top: 15px;
+}
+.info-tt-hotro .inner-tt ul li{
+      margin-bottom: 10px;
+}
+.info-tt-hotro .inner-tt ul li a{
+      font-size: 16px;
+      text-decoration: none;
+      color: #288ad6;
+      font-weight: 600;
+}
+/* End info-tt-hotro */
+/* Map shop */
+.Map-shop .desc{
+      font-weight: 700;
+      margin-bottom: 20px;
+}
+.Map-shop .Box-map{
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      border-radius: 5px 5px 0 0;
+}
+.Map-shop .Box-map .Tinh-tp-top{
+      background: #ddd;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 0;
+}
+.Map-shop .Box-map ul li{
+      padding: 5px 10px;
+}
+.Map-shop .Box-map ul li .Tinh-tp{
+      font-size: 18px;
+      font-weight: 700;
+}
+.Map-shop .Box-map ul li p{
+      color: #000;
+      font-size: 19px;
+}
+.Map-shop .End{
+      background: #ddd;
+      margin-top: 50px;
+      padding: 10px;
+      font-size: 17px;
+      text-align: center;
+      margin-bottom: 0;
+}
+/* End Map shop */

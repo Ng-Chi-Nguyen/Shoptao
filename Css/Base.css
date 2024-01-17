@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container-rb{
+      width: 100%;
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+body{
+      font-family: 'Raleway', sans-serif;
+      min-width: 1200px;
+      background: #F0F0F0;
+}
+a{
+      text-decoration: none;
+}
+p{
+      margin-bottom: 0;
+}
+ul{
+      padding-left: 0;
+}
+li{
+      list-style: none;
+}
+.col-xl-20{
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+}
+@media(min-width: 1200px){
+      .col-xl-20{
+            -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+            max-width: 20%;
+      }
+}
+.bg-trang{
+      background: #FFF;
+      padding: 30px 30px 0 30px;
+}
+.title{
+      font-weight: 700;
+      margin-bottom: 50px;
+      color: #438F23;
+      text-align: center;
+      position: relative;
+}
+.title::before{
+      content: "";
+      position: absolute;
+      display: block;
+      width: 220px;
+      height: 1px;
+      background: #5CB874;
+      bottom: -15px;
+      left: calc(50% - 110px);
+      margin-bottom: 5px;
+}
+.title::after{
+      content: "";
+      position: absolute;
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #5CB874;
+      bottom: -15px;
+      left: calc(50% - 30px);
+      margin-bottom: 5px;
+}
+.Box{
+      text-align: left;
+      border: 2px solid #ddd;
+      padding: 20px;
+      margin-bottom: 50px;
+}
+.Box:hover{
+      box-shadow: rgba(0, 0, 0, 0.43) 0 0 20px;
+      .Name{
+            color: #288ad6;
+      }
+}
+.Box img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+}
+.Box .Name{
+      font-size: 15px;
+      margin-top: 10px;
+      color: #000;
+      height: 68px;
+}
+.Box .Monney{
+      color: red;
+}
+.Box span{
+      color: #22222287;
+      font-size: 18px;
+      margin-left: 10px;
+      text-decoration: line-through;
+}
+.Box .Freeship{
+      display: flex;
+      align-items: center;
+      color: #22222287;
+}
+.Box .Freeship i{
+      font-size: 5px;
+      margin-right: 5px;
+}
+.Box .Freeship p{
+      font-size: 13px;
+}
+.Box .no-free{
+      padding-top: 20px;
+}
+.Box .Mua-Them{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+}
+.Box .Mua-Them button{
+      padding: 5px 17px;
+      background: #6de23a;
+      border: 0;
+}
+.Box .Mua-Them button a{
+      text-decoration: none;
+      font-size: 12px;
+      color: #fff;
+      font-weight: 600;
+}
