@@ -81,6 +81,7 @@ li{
       .Name{
             color: #288ad6;
       }
+      border: none;
 }
 .Box img{
       width: 100%;
